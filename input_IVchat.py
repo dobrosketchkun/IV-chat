@@ -9,7 +9,7 @@ point = 0
 api = ipfsapi.connect('127.0.0.1', 5001)
 
 
-with open('rand_plain.txt', 'r') as f:
+with open('TEST_RANDOM_DO_NOT_USE_IN_REAL_CONVERSATION.txt', 'r') as f:
     all_random = f.read()
 
 
@@ -45,4 +45,3 @@ while True:
     printt(['ipfned. Do it again.'])
     point = end
     spoint(point)
-
