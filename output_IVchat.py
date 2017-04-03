@@ -14,7 +14,7 @@ def printt(x, *kargs):
         print(x)
 
 
-with open('rand_plain.txt', 'r') as f:
+with open('TEST_RANDOM_DO_NOT_USE_IN_REAL_CONVERSATION.txt', 'r') as f:
     all_random = f.read()
 
 def encrypt(string, key):
